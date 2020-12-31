@@ -1,0 +1,38 @@
+body {
+  overflow: hidden;
+}
+
+#info-panel {
+  background-color: red;
+  position: sticky;
+}
+
+.info-panel {
+  color: white;
+  background-color: red;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  /*margin-bottom: 5px;*/
+  box-shadow: 0px 3px lightgray;
+}
+
+.input-panel {
+  color: white;
+  background-color: green;
+  height: 66%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  overflow: scroll;
+}
+
+.option-box {
+  margin: auto;
+  min-height:100px;
+  text-align: center;
+}
+
